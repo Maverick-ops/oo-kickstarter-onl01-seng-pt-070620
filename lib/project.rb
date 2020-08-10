@@ -8,6 +8,6 @@ class Project
   
   def add_backer(backer)
     @backers << backers
-    backer.back
+    backer.backed_projects 
 
 end 
